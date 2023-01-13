@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: rgb(83, 83, 83);
+    background-color: rgb(250, 248, 248);
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2em 1.15em;
+}
+
+#dropbox_root {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#dropbox_search_bar {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #ccc;
+    margin-top: 2em;
+    border-radius: 5px;
+    font-size: 1em;
+    color: rgb(83, 83, 83);
+    line-height: 100px;
+    outline: none;
+    padding: 0 1em;
+}
+
+.dropbox_list {
+    width: 100%;
+    max-width: 100%;
+    height: 315px;
+    border: 2px solid #ccc;
+    margin: 1em 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: rgb(83, 83, 83);
+    outline: none;
+    background-color: rgb(236, 236, 236);
+    padding: 0;
+    list-style-type: none;
+    overflow-y: scroll;
+    position: absolute;
+}
+
+.dropbox_list li {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 1em;
+    margin: 0;
+    cursor: pointer;
+}
+
+.dropbox_list li:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#chart_root {
+    margin-top: 3.5em;
+}
+
+#table_root {
+    width: 100%;
+    height: 500px;
+    margin-top: 7em;
+}

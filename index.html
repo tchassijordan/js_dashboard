@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <base href=".">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/ag-grid-community.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main>
+        <section id="dropbox_root">
+            <input type="text" id="dropbox_search_bar" placeholder="Select Coin" />
+            <ul class="dropbox_list hidden">
+                <li class="dropbox_item">Bitcoin</li>
+                <li class="dropbox_item">Dodge coin</li>
+                <li class="dropbox_item">Ethereum</li>
+                <li class="dropbox_item">Litecoin</li>
+                <li class="dropbox_item">Monero</li>
+                <li class="dropbox_item">Stellar</li>
+                <li class="dropbox_item">Tezos</li>
+                <li class="dropbox_item">Tron</li>
+                <li class="dropbox_item">Uniswap</li>
+                <li class="dropbox_item">Waves</li>
+            </ul>
+        </section>
+        <canvas id="chart_root"></canvas>
+        <section id="table_root" class="ag-theme-alpine table-container">
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
