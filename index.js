@@ -18,11 +18,13 @@ searchBar.addEventListener('keyup', (e) => {
   });
 });
 
+//Handle focus on search bar
 searchBar.addEventListener('focus', () => {
   const dropboxList = document.querySelector('.dropbox_list');
   dropboxList.classList.remove('hidden');
 });
 
+//Handle blur on search bar
 searchBar.addEventListener('blur', () => {
   const dropboxList = document.querySelector('.dropbox_list');
   dropboxList.classList.add('hidden');
