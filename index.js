@@ -53,11 +53,7 @@ new Chart(ctx, {
 });
 
 // Table component
-const columnDefs = [
-  { field: 'make', minWidth: 350 },
-  { field: 'model', minWidth: 350 },
-  { field: 'price', minWidth: 350 }
-];
+const columnDefs = [{ field: 'make' }, { field: 'model' }, { field: 'price' }];
 
 // specify the data
 const rowData = [
